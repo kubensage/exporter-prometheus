@@ -2,14 +2,15 @@ package main
 
 import (
 	"context"
-	"exporter-prometheus/metrics"
-	"exporter-prometheus/pkg/cli"
-	"exporter-prometheus/proto/gen"
 	"flag"
 	"net/http"
 	"os"
 	"os/signal"
 	"syscall"
+
+	"github.com/kubensage/exporter-prometheus/metrics"
+	"github.com/kubensage/exporter-prometheus/pkg/cli"
+	"github.com/kubensage/exporter-prometheus/proto/gen"
 
 	"github.com/kubensage/common/cli"
 	"github.com/kubensage/common/grpc"

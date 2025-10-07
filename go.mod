@@ -1,4 +1,4 @@
-module exporter-prometheus
+module github.com/kubensage/exporter-prometheus
 
 go 1.24.4
 
