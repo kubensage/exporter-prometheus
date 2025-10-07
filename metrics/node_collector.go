@@ -1,9 +1,10 @@
 package metrics
 
 import (
-	"exporter-prometheus/proto/gen"
 	"fmt"
 	"strings"
+
+	"github.com/kubensage/exporter-prometheus/proto/gen"
 
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
